@@ -18,7 +18,7 @@ int main(){
     x = 1;
     y = 2;
 
-    z = add(x,y); // function call with formal parameters
+    z = add(x,y); // function call with actual parameters
 
     cout << z << endl;
     return 0;
