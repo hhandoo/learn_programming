@@ -25,6 +25,15 @@ int fun3_callByReference(struct rectangle &r){
 }
 
 
+void pass_array(struct test t){
+    t.arr[0] = 122;
+    t.arr[1] = 2222;
+
+    for(int x: t.arr){
+        cout << x << endl;
+    }
+}
+
 
 
 
@@ -48,6 +57,9 @@ int main(){
     // how to pass an array ?
 
     struct test t = {{1,2,4,5,6},1};
+
+
+    pass_array(t);
 
 
 
