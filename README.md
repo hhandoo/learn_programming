@@ -5,7 +5,7 @@ Welcome to the **Learn Programming** repository! I made this repo to get started
 ## Table of Contents
 - [Introduction](#introduction)
 - [How to Compile Code](#how-to-compile-code)
-  - [C++ Code Example](#cpp-code-example)
+  - [C++ Code Example](#code-example)
   - [Compiling the Code](#compiling-the-code)
   - [Running the Compiled Program](#running-the-compiled-program)
 - [Topics Covered](#topics-covered)
@@ -22,7 +22,7 @@ By following the examples, you'll learn how to:
 
 ## How to Compile Code
 
-### C++ Code Example
+### Code Example
 
 Here’s a basic **C++** program that prints "Hello, World!" to the console:
 
