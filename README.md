@@ -56,7 +56,9 @@ Hello, World!
 ```
 
 ## Topics Covered
-- C and C++ Concepts
+- 1. C and C++ Concepts
+- 2. Introduction to Data Structures
+- 3. Recursion
 
 ## Contributing
 I welcome contributions to this repository! If you have suggestions for improving the examples or adding new programming languages, feel free to fork the repository and submit a pull request.

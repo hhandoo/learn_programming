@@ -26,6 +26,8 @@ Format specifiers in `printf` determine how the arguments are formatted in the o
 | `%g` or `%G`      | Shorter of `%f` or `%e`       | `123.45`      |
 | `%%`              | Prints a literal `%`          | `%`           |
 
+
+double is %lf and long is %ld
 ### Examples
 
 #### Printing Text
