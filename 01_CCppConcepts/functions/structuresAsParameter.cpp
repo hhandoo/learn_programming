@@ -9,7 +9,7 @@ struct rectangle {
 };
 
 struct test {
-    int arr[5];
+    int numsarr[5];
     int l;
 };
 int fun1_callByValue(struct rectangle r){
