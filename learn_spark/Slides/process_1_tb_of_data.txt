@@ -1,0 +1,45 @@
+Data size : 1 PB = 1073741824 MB
+default part size = 256 MB
+
+total partitions = 4,194,304 partitions
+
+Determining Number of Cores
+
+Recommended parallelism: 2-4 tasks per core.
+
+4,194,304 / 2 = 2,097,152
+
+
+Determining Executors and Cores per Executor
+
+A best practice in Spark is to use 5 cores per executor 
+
+
+2,097,152 / 5 = 419,430 executors
+
+
+Memory Allocation
+
+A good rule of thumb is 4-8 GB per core for in-memory processing.
+Per executor memory (since we have 5 cores per executor):
+
+
+5 cores × 6 GB per core = 30 GB per executor
+
+
+Total Data Size		1 PB (1,073,741,824 MB)
+Partition Size		256 MB
+Total Partitions	4,194,304
+Cores per Executor	5
+Total Cores		2,097,152
+Total Executors		419,430
+Memory per Core		6 GB
+Memory per Executor	30 GB
+Total Cluster Memory	12.6 PB RAM
+
+
+
+
+
+
+
