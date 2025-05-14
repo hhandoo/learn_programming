@@ -7,7 +7,6 @@ Yes! You're absolutely on point. Let me repackage and present your **1 PB Spark 
 ---
 
 ### 📦 **1. Data Size & Partitioning**
-
 | Metric | Value |
 |--------|-------|
 | Total Data Size | **1 PB = 1,073,741,824 MB** |
